@@ -1,0 +1,35 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.book {
+  width: 500px;
+  height: 900px;
+  text-align: center;
+  background-color: rgb(201, 201, 201);
+}
+
+.titlemargin {
+  margin-bottom: 100px;
+}
+
+.mainbutton {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 40px 20px 40px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: none;
+  background: #000;
+}
+
+.mainbutton:hover {
+  padding: 20px 40px 20px 40px;
+  color: rgb(158, 0, 0);
+  background: rgb(216, 216, 216);
+  transition: 500ms;
+}
